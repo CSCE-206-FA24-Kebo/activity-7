@@ -29,10 +29,10 @@ struct Car
 
 // Function prototypes
 int set_price(struct Car *c, float price);
-void print_car(struct Car *c);
-void inspect_car(struct Car *c);
 int set_manufacture_date(struct Car *c, int day, int month, int year);
 int set_engine(struct Car *c, float displacement, int cylinders, char *fuel_type);
+void print_car(struct Car *c);
+void inspect_car(struct Car *c);
 
 // DO NOT MODIFY THE MAIN() FUNCTION
 int main()
